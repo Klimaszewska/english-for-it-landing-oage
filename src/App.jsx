@@ -15,7 +15,6 @@ function App() {
                     <a href="#home">Home</a>
                     <a href="#features">Zawartość</a>
                     <a href="#gallery">Galeria</a>
-                    <a href="#contact">Kontakt</a>
                     <a href="#signup">Dołącz</a>
                 </nav>
             </header>
