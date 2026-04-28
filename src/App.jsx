@@ -1,5 +1,9 @@
 import './App.css'
-import appPreview from './assets/images/app-preview.png'
+import flashcardElementsImage from './assets/images/app-flashcard-elements.png'
+import flashcardsImage from './assets/images/feature1.png'
+import flashcardsInPracticeImage from './assets/images/feature2.png'
+import flashcardsProgressImage from './assets/images/feature3.png'
+import teaserVideo from './assets/videos/video-teaser.mp4'
 
 function App() {
     return (
@@ -49,7 +53,7 @@ function App() {
                         </article>
 
                         <article className="feature-card">
-                            <h3>Prawdziwy język z pracy</h3>
+                            <h3>Prawdziwy język używany w pracy</h3>
                             <p>Zwroty używane na stand-upach, w code review, na spotkaniach i rozmowach.</p>
                         </article>
 
@@ -70,7 +74,7 @@ function App() {
 
                     <img
                         className="app-preview-image"
-                        src={appPreview}
+                        src={flashcardElementsImage}
                         alt="Podgląd aplikacji IT English"
                     />
                 </section>
@@ -86,19 +90,19 @@ function App() {
 
                     <div className="gallery-grid">
                         <article className="gallery-card">
-                            <img src={appPreview} alt="Podgląd aplikacji mobilnej" />
+                            <img src={flashcardsImage} alt="Podgląd aplikacji mobilnej" />
                             <h3>Fiszki</h3>
                             <p>Krótkie lekcje, które zrobisz w kilka minut dziennie.</p>
                         </article>
 
                         <article className="gallery-card">
-                            <img src={appPreview} alt="Podgląd lekcji" />
+                            <img src={flashcardsInPracticeImage} alt="Podgląd lekcji" />
                             <h3>Praktyczne zwroty</h3>
                             <p>Gotowe zdania do użycia w pracy i rozmowach technicznych.</p>
                         </article>
 
                         <article className="gallery-card">
-                            <img src={appPreview} alt="Codzienna lekcja" />
+                            <img src={flashcardsProgressImage} alt="Codzienna lekcja" />
                             <h3>Codzienny progres</h3>
                             <p>Spokojne, systematyczne budowanie pewności językowej.</p>
                         </article>
@@ -112,7 +116,7 @@ function App() {
 
                         <video controls>
                             <source
-                                src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+                                src={teaserVideo}
                                 type="video/mp4"
                             />
                             Twoja przeglądarka nie obsługuje wideo.
